@@ -1,0 +1,76 @@
+ <!DOCTYPE html>
+<html lang=”it”>
+<head>
+<style>
+ :root {
+ --menu-width: 200px; 
+ --menu-bg: #003366; 
+ --btn-bg: #0059b3;
+ --btn-hover: #0073e6; 
+ --page-bg: #e6f2ff; 
+ }
+
+
+
+nav#menu {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: var(--menu-width);
+  height: 100vh;
+  background-color: var(--menu-bg);
+  padding: 20px;
+  box-sizing: border-box;
+  color:white;
+ }
+
+nav#menu a.btn {
+  display: block;
+  background-color: var(--btn-bg);
+  color: white;
+  padding: 12px;
+  margin: 12px 0;
+  text-decoretion: none;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.2s;
+
+  }
+
+ body { 
+  margin: 0;
+  background-color: var(--page-bg);
+  font-family: Arial, sans-serif;
+  }
+
+main { 
+  margin-left: calc(var(--menu-width) + 30px);
+  padding: 20px;
+  } 
+
+</style>
+ 
+<meta charset=”utf-8”>
+<title>Corso stem 25/26</title>
+</head>
+<body>
+<nav id="menu" aria-label="Menu laterale">
+ <h2>Menu</h2>
+ <a class="btn" href="index.html">🏠 Home</a>
+ <a class="btn" href="galleria.html">📷 Galleria</a>
+ <a class="btn" href="documenti.html">📁 Documenti</a>
+ <a class="btn" href="giochi.html">🎮 Gioco</a>
+
+
+</nav>
+
+
+<main>
+<h1>Giochi</h1>
+</main>
+
+<!-- contenuto visibile-->
+</html>
+
+
