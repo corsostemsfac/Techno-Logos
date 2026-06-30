@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang=”it”>
+<head>
+<style>
+ :root {
+ --menu-width: 200px; 
+ --menu-bg: #003366; 
+ --btn-bg: #0059b3;
+ --btn-hover: #0073e6; 
+ --page-bg: #e6f2ff; 
+ }
+
+
+
+nav#menu {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: var(--menu-width);
+  height: 100vh;
+  background-color: var(--menu-bg);
+  padding: 20px;
+  box-sizing: border-box;
+  color:white;
+ }
+
+nav#menu a.btn {
+  display: block;
+  background-color: var(--btn-bg);
+  color: white;
+  padding: 12px;
+  margin: 12px 0;
+  text-decoretion: none;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.2s;
+ 
+  }
+
+ body { 
+  margin: 0;
+  background-color: var(--page-bg);
+  font-family: Arial, sans-serif;
+  }
+
+main { 
+  margin-left: calc(var(--menu-width) + 30px);
+  padding: 20px;
+  } 
+
+</style>
+ 
+<meta charset=”utf-8”>
+<title>Techno Logos</title>
+</head>
+<body>
+<nav id="menu" aria-label="Menu laterale">
+ <h2>Menu</h2>
+ <a class="btn" href="index.html">🏠 Home</a>
+ <a class="btn" href="galleria.html">📷 Galleria</a>
+ <a class="btn" href="documenti.html">📁 Documenti</a>
+ <a class="btn" href="VR.html">🤖 VR</a>
+
+
+</nav>
+
+<main>
+<h1>Realta Virtuale</h1>
+<p>La realtà virtuale (VR) è una tecnologia che permette di immergersi in un ambiente digitale tridimensionale, dando la sensazione di trovarsi realmente al suo interno. Per vivere questa esperienza si utilizza solitamente un visore che copre gli occhi e, in molti casi, dei controller o sensori che rilevano i movimenti del corpo.
+Ecco come funziona:
+
+Il visore VR mostra immagini diverse a ciascun occhio, creando l'effetto della profondità.
+I sensori rilevano i movimenti della testa e, talvolta, delle mani e del corpo.
+Il software aggiorna la scena in tempo reale, così l'ambiente virtuale cambia in base ai tuoi movimenti.
+
+La realtà virtuale viene utilizzata in molti ambiti:
+
+🎮 Videogiochi, per esperienze immersive.
+🎓 Istruzione e formazione, ad esempio per simulare interventi chirurgici o esercitazioni tecniche.
+🏥 Medicina, per la riabilitazione e la terapia di alcune fobie.
+🏢 Architettura e design, per visitare edifici ancora in fase di progettazione.
+🌍 Turismo virtuale, per esplorare luoghi lontani senza spostarsi.
+
+È importante distinguere la realtà virtuale dalla realtà aumentata (AR):
+
+VR: sostituisce completamente ciò che vedi con un ambiente digitale.
+AR: aggiunge elementi digitali al mondo reale, visibili attraverso uno smartphone o appositi occhiali.</p>
+
+</main>
+
+<!--AGGIUNTA IMMAGINI-->
+
+<div class="row">
+
+<img src="img/VR sito.JPG" width="300" style="margin-left: 200px;">
+
+</div>

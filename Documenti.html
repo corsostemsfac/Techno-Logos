@@ -1,5 +1,5 @@
- <!DOCTYPE html>
-<html lang=”it”>
+<!DOCTYPE html>
+<html lang="it">
 <head>
 <style>
  :root {
@@ -9,8 +9,6 @@
  --btn-hover: #0073e6; 
  --page-bg: #e6f2ff; 
  }
-
-
 
 nav#menu {
   position: fixed; 
@@ -30,47 +28,54 @@ nav#menu a.btn {
   color: white;
   padding: 12px;
   margin: 12px 0;
-  text-decoretion: none;
+  text-decoration: none;
   text-align: center;
   border-radius: 8px;
   font-weight: bold;
   transition: 0.2s;
+ }
 
-  }
-
- body { 
+body { 
   margin: 0;
   background-color: var(--page-bg);
   font-family: Arial, sans-serif;
-  }
+}
 
 main { 
   margin-left: calc(var(--menu-width) + 30px);
   padding: 20px;
-  } 
+} 
 
 </style>
- 
-<meta charset=”utf-8”>
+
+<meta charset="utf-8">
 <title>Corso stem 25/26</title>
 </head>
+
 <body>
+
 <nav id="menu" aria-label="Menu laterale">
  <h2>Menu</h2>
  <a class="btn" href="index.html">🏠 Home</a>
  <a class="btn" href="galleria.html">📷 Galleria</a>
  <a class="btn" href="documenti.html">📁 Documenti</a>
- <a class="btn" href="giochi.html">🎮 Gioco</a>
-
+ <a class="btn" href="VR.html">🤖 VR</a>
 
 </nav>
 
-
 <main>
 <h1>Documenti</h1>
+
+<!-- LISTA DOCUMENTI -->
+<ul style="margin-left: calc(var(--menu-width) + 30px); margin-top: 30px;">
+    <li>
+        <a href="documenti/Meta1.pdf" target="_blank">
+            📄 Guida Meta Oculus Quest 1 (PDF)
+        </a>
+    </li>
+</ul>
+
 </main>
 
-<!-- contenuto visibile-->
+</body>
 </html>
-
-
